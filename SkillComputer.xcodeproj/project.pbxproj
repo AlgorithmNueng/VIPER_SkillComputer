@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3747D4B8ECE715F1EEABB8D1 /* Pods_SkillComputer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D49389D7B7CF5B55BF7EF4D /* Pods_SkillComputer.framework */; };
+		D257B6771F2E381D004A1DFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6761F2E381D004A1DFE /* AppDelegate.swift */; };
+		D257B6791F2E381D004A1DFE /* SKillComputerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6781F2E381D004A1DFE /* SKillComputerViewController.swift */; };
+		D257B67C1F2E381D004A1DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D257B67A1F2E381D004A1DFE /* Main.storyboard */; };
+		D257B67E1F2E381D004A1DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D257B67D1F2E381D004A1DFE /* Assets.xcassets */; };
+		D257B6811F2E381D004A1DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D257B67F1F2E381D004A1DFE /* LaunchScreen.storyboard */; };
+		D257B68E1F2E395C004A1DFE /* SkillComputerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B68D1F2E395C004A1DFE /* SkillComputerModel.swift */; };
+		D257B6911F2E3A0B004A1DFE /* SummarySkillComputerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6901F2E3A0B004A1DFE /* SummarySkillComputerViewController.swift */; };
+		D257B6941F2E3A30004A1DFE /* SkillComputerDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6931F2E3A30004A1DFE /* SkillComputerDataManager.swift */; };
+		D257B6991F2E3AFF004A1DFE /* AlamofireRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6981F2E3AFF004A1DFE /* AlamofireRouter.swift */; };
+		D257B69B1F2E3B36004A1DFE /* AlamofireRouterBaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B69A1F2E3B36004A1DFE /* AlamofireRouterBaseURL.swift */; };
+		D257B69D1F2E3BA0004A1DFE /* AlamofireRouterMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B69C1F2E3BA0004A1DFE /* AlamofireRouterMethod.swift */; };
+		D257B69F1F2E3BE3004A1DFE /* AlamofireRouterParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B69E1F2E3BE3004A1DFE /* AlamofireRouterParameters.swift */; };
+		D257B6A11F2E3C10004A1DFE /* AlamofireRouterPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6A01F2E3C10004A1DFE /* AlamofireRouterPath.swift */; };
+		D257B6A31F2E3C9A004A1DFE /* AlamofireRouterRawBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6A21F2E3C9A004A1DFE /* AlamofireRouterRawBody.swift */; };
+		D257B6A51F2E3CB1004A1DFE /* AlamofireRouterURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6A41F2E3CB1004A1DFE /* AlamofireRouterURLRequest.swift */; };
+		D257B6A71F2E40CE004A1DFE /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6A61F2E40CE004A1DFE /* GlobalConstants.swift */; };
+		D257B6AA1F2E4318004A1DFE /* SummarySkillComputerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6A91F2E4318004A1DFE /* SummarySkillComputerPresenter.swift */; };
+		D257B6AC1F2E4322004A1DFE /* SummarySkillComputerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6AB1F2E4322004A1DFE /* SummarySkillComputerInteractor.swift */; };
+		D257B6AE1F2E432D004A1DFE /* SummarySkillComputerRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6AD1F2E432D004A1DFE /* SummarySkillComputerRouting.swift */; };
+		D257B6B01F2E4339004A1DFE /* SummarySkillComputerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6AF1F2E4339004A1DFE /* SummarySkillComputerAssembly.swift */; };
+		D290E64D1F2E4FDB003E0366 /* SummarySKillComputerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290E64C1F2E4FDB003E0366 /* SummarySKillComputerCell.swift */; };
+		D290E6501F2E511D003E0366 /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290E64F1F2E511D003E0366 /* ReuseIdentifierProtocol.swift */; };
+		D290E6531F2E52FD003E0366 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290E6521F2E52FD003E0366 /* ViewControllerExtension.swift */; };
+		D290E6551F2E6660003E0366 /* SKillComputerPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290E6541F2E6660003E0366 /* SKillComputerPresent.swift */; };
+		D290E6571F2E666B003E0366 /* SKillComputerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290E6561F2E666B003E0366 /* SKillComputerInteractor.swift */; };
+		D290E6591F2E6676003E0366 /* SKillComputerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290E6581F2E6676003E0366 /* SKillComputerAssembly.swift */; };
+		D290E65B1F2E697E003E0366 /* ComputerGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290E65A1F2E697E003E0366 /* ComputerGroupModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D49389D7B7CF5B55BF7EF4D /* Pods_SkillComputer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillComputer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D38F8D006775C454FAF9098 /* Pods-SkillComputer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillComputer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillComputer/Pods-SkillComputer.release.xcconfig"; sourceTree = "<group>"; };
+		AA6A1E12AB33531FC32E038E /* Pods-SkillComputer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillComputer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillComputer/Pods-SkillComputer.debug.xcconfig"; sourceTree = "<group>"; };
+		D257B6731F2E381D004A1DFE /* SkillComputer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkillComputer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D257B6761F2E381D004A1DFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D257B6781F2E381D004A1DFE /* SKillComputerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKillComputerViewController.swift; sourceTree = "<group>"; };
+		D257B67B1F2E381D004A1DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D257B67D1F2E381D004A1DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D257B6801F2E381D004A1DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D257B6821F2E381D004A1DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D257B68D1F2E395C004A1DFE /* SkillComputerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillComputerModel.swift; sourceTree = "<group>"; };
+		D257B6901F2E3A0B004A1DFE /* SummarySkillComputerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummarySkillComputerViewController.swift; sourceTree = "<group>"; };
+		D257B6931F2E3A30004A1DFE /* SkillComputerDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillComputerDataManager.swift; sourceTree = "<group>"; };
+		D257B6981F2E3AFF004A1DFE /* AlamofireRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlamofireRouter.swift; path = ../../../../Downloads/AlamofireRouter.swift; sourceTree = "<group>"; };
+		D257B69A1F2E3B36004A1DFE /* AlamofireRouterBaseURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterBaseURL.swift; sourceTree = "<group>"; };
+		D257B69C1F2E3BA0004A1DFE /* AlamofireRouterMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterMethod.swift; sourceTree = "<group>"; };
+		D257B69E1F2E3BE3004A1DFE /* AlamofireRouterParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterParameters.swift; sourceTree = "<group>"; };
+		D257B6A01F2E3C10004A1DFE /* AlamofireRouterPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterPath.swift; sourceTree = "<group>"; };
+		D257B6A21F2E3C9A004A1DFE /* AlamofireRouterRawBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterRawBody.swift; sourceTree = "<group>"; };
+		D257B6A41F2E3CB1004A1DFE /* AlamofireRouterURLRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterURLRequest.swift; sourceTree = "<group>"; };
+		D257B6A61F2E40CE004A1DFE /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		D257B6A91F2E4318004A1DFE /* SummarySkillComputerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummarySkillComputerPresenter.swift; sourceTree = "<group>"; };
+		D257B6AB1F2E4322004A1DFE /* SummarySkillComputerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummarySkillComputerInteractor.swift; sourceTree = "<group>"; };
+		D257B6AD1F2E432D004A1DFE /* SummarySkillComputerRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummarySkillComputerRouting.swift; sourceTree = "<group>"; };
+		D257B6AF1F2E4339004A1DFE /* SummarySkillComputerAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummarySkillComputerAssembly.swift; sourceTree = "<group>"; };
+		D290E64C1F2E4FDB003E0366 /* SummarySKillComputerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummarySKillComputerCell.swift; sourceTree = "<group>"; };
+		D290E64F1F2E511D003E0366 /* ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
+		D290E6521F2E52FD003E0366 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		D290E6541F2E6660003E0366 /* SKillComputerPresent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKillComputerPresent.swift; sourceTree = "<group>"; };
+		D290E6561F2E666B003E0366 /* SKillComputerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKillComputerInteractor.swift; sourceTree = "<group>"; };
+		D290E6581F2E6676003E0366 /* SKillComputerAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKillComputerAssembly.swift; sourceTree = "<group>"; };
+		D290E65A1F2E697E003E0366 /* ComputerGroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerGroupModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D257B6701F2E381D004A1DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3747D4B8ECE715F1EEABB8D1 /* Pods_SkillComputer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843D519594B405E56AB7B174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D49389D7B7CF5B55BF7EF4D /* Pods_SkillComputer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95769C4D84930B3AA0B59768 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA6A1E12AB33531FC32E038E /* Pods-SkillComputer.debug.xcconfig */,
+				8D38F8D006775C454FAF9098 /* Pods-SkillComputer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D257B66A1F2E381D004A1DFE = {
+			isa = PBXGroup;
+			children = (
+				D257B6751F2E381D004A1DFE /* SkillComputer */,
+				D257B6741F2E381D004A1DFE /* Products */,
+				95769C4D84930B3AA0B59768 /* Pods */,
+				843D519594B405E56AB7B174 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D257B6741F2E381D004A1DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D257B6731F2E381D004A1DFE /* SkillComputer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D257B6751F2E381D004A1DFE /* SkillComputer */ = {
+			isa = PBXGroup;
+			children = (
+				D290E6511F2E52C9003E0366 /* Extension */,
+				D290E64E1F2E5100003E0366 /* ReuseIdentifier */,
+				D290E64B1F2E4F06003E0366 /* Cell */,
+				D257B6A81F2E40D3004A1DFE /* GlobalConstants */,
+				D257B6971F2E3AE9004A1DFE /* Router */,
+				D257B6921F2E3A16004A1DFE /* Service */,
+				D257B68F1F2E39E8004A1DFE /* Models */,
+				D257B68C1F2E3938004A1DFE /* SummarySkillComputer */,
+				D257B68B1F2E3929004A1DFE /* SkillComputer */,
+				D257B68A1F2E3900004A1DFE /* StoryBoard */,
+				D257B6891F2E38DA004A1DFE /* Resource */,
+				D257B6881F2E38C6004A1DFE /* AppDelegate */,
+				D257B6821F2E381D004A1DFE /* Info.plist */,
+			);
+			path = SkillComputer;
+			sourceTree = "<group>";
+		};
+		D257B6881F2E38C6004A1DFE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D257B6761F2E381D004A1DFE /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D257B6891F2E38DA004A1DFE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D257B67D1F2E381D004A1DFE /* Assets.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		D257B68A1F2E3900004A1DFE /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D257B67A1F2E381D004A1DFE /* Main.storyboard */,
+				D257B67F1F2E381D004A1DFE /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		D257B68B1F2E3929004A1DFE /* SkillComputer */ = {
+			isa = PBXGroup;
+			children = (
+				D257B6781F2E381D004A1DFE /* SKillComputerViewController.swift */,
+				D290E6541F2E6660003E0366 /* SKillComputerPresent.swift */,
+				D290E6561F2E666B003E0366 /* SKillComputerInteractor.swift */,
+				D290E6581F2E6676003E0366 /* SKillComputerAssembly.swift */,
+			);
+			name = SkillComputer;
+			sourceTree = "<group>";
+		};
+		D257B68C1F2E3938004A1DFE /* SummarySkillComputer */ = {
+			isa = PBXGroup;
+			children = (
+				D257B6901F2E3A0B004A1DFE /* SummarySkillComputerViewController.swift */,
+				D257B6A91F2E4318004A1DFE /* SummarySkillComputerPresenter.swift */,
+				D257B6AB1F2E4322004A1DFE /* SummarySkillComputerInteractor.swift */,
+				D257B6AD1F2E432D004A1DFE /* SummarySkillComputerRouting.swift */,
+				D257B6AF1F2E4339004A1DFE /* SummarySkillComputerAssembly.swift */,
+			);
+			name = SummarySkillComputer;
+			sourceTree = "<group>";
+		};
+		D257B68F1F2E39E8004A1DFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D257B68D1F2E395C004A1DFE /* SkillComputerModel.swift */,
+				D290E65A1F2E697E003E0366 /* ComputerGroupModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D257B6921F2E3A16004A1DFE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D257B6931F2E3A30004A1DFE /* SkillComputerDataManager.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		D257B6971F2E3AE9004A1DFE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D257B6981F2E3AFF004A1DFE /* AlamofireRouter.swift */,
+				D257B69A1F2E3B36004A1DFE /* AlamofireRouterBaseURL.swift */,
+				D257B69C1F2E3BA0004A1DFE /* AlamofireRouterMethod.swift */,
+				D257B69E1F2E3BE3004A1DFE /* AlamofireRouterParameters.swift */,
+				D257B6A01F2E3C10004A1DFE /* AlamofireRouterPath.swift */,
+				D257B6A21F2E3C9A004A1DFE /* AlamofireRouterRawBody.swift */,
+				D257B6A41F2E3CB1004A1DFE /* AlamofireRouterURLRequest.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		D257B6A81F2E40D3004A1DFE /* GlobalConstants */ = {
+			isa = PBXGroup;
+			children = (
+				D257B6A61F2E40CE004A1DFE /* GlobalConstants.swift */,
+			);
+			name = GlobalConstants;
+			sourceTree = "<group>";
+		};
+		D290E64B1F2E4F06003E0366 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D290E64C1F2E4FDB003E0366 /* SummarySKillComputerCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		D290E64E1F2E5100003E0366 /* ReuseIdentifier */ = {
+			isa = PBXGroup;
+			children = (
+				D290E64F1F2E511D003E0366 /* ReuseIdentifierProtocol.swift */,
+			);
+			name = ReuseIdentifier;
+			sourceTree = "<group>";
+		};
+		D290E6511F2E52C9003E0366 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D290E6521F2E52FD003E0366 /* ViewControllerExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D257B6721F2E381D004A1DFE /* SkillComputer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D257B6851F2E381D004A1DFE /* Build configuration list for PBXNativeTarget "SkillComputer" */;
+			buildPhases = (
+				9F8019FDA80B5E2BBA8BAD51 /* [CP] Check Pods Manifest.lock */,
+				D257B66F1F2E381D004A1DFE /* Sources */,
+				D257B6701F2E381D004A1DFE /* Frameworks */,
+				D257B6711F2E381D004A1DFE /* Resources */,
+				2FDF8E20501148B13E837054 /* [CP] Embed Pods Frameworks */,
+				43D9DB7BCE86BACCE6C1F826 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkillComputer;
+			productName = SkillComputer;
+			productReference = D257B6731F2E381D004A1DFE /* SkillComputer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D257B66B1F2E381D004A1DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = codemobiles;
+				TargetAttributes = {
+					D257B6721F2E381D004A1DFE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3ZLZEZ346Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D257B66E1F2E381D004A1DFE /* Build configuration list for PBXProject "SkillComputer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D257B66A1F2E381D004A1DFE;
+			productRefGroup = D257B6741F2E381D004A1DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D257B6721F2E381D004A1DFE /* SkillComputer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D257B6711F2E381D004A1DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D257B6811F2E381D004A1DFE /* LaunchScreen.storyboard in Resources */,
+				D257B67E1F2E381D004A1DFE /* Assets.xcassets in Resources */,
+				D257B67C1F2E381D004A1DFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FDF8E20501148B13E837054 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillComputer/Pods-SkillComputer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43D9DB7BCE86BACCE6C1F826 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillComputer/Pods-SkillComputer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F8019FDA80B5E2BBA8BAD51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D257B66F1F2E381D004A1DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D257B6AE1F2E432D004A1DFE /* SummarySkillComputerRouting.swift in Sources */,
+				D257B69D1F2E3BA0004A1DFE /* AlamofireRouterMethod.swift in Sources */,
+				D257B6791F2E381D004A1DFE /* SKillComputerViewController.swift in Sources */,
+				D290E64D1F2E4FDB003E0366 /* SummarySKillComputerCell.swift in Sources */,
+				D257B69F1F2E3BE3004A1DFE /* AlamofireRouterParameters.swift in Sources */,
+				D257B6771F2E381D004A1DFE /* AppDelegate.swift in Sources */,
+				D257B6AC1F2E4322004A1DFE /* SummarySkillComputerInteractor.swift in Sources */,
+				D257B6A31F2E3C9A004A1DFE /* AlamofireRouterRawBody.swift in Sources */,
+				D290E6531F2E52FD003E0366 /* ViewControllerExtension.swift in Sources */,
+				D290E6571F2E666B003E0366 /* SKillComputerInteractor.swift in Sources */,
+				D290E6551F2E6660003E0366 /* SKillComputerPresent.swift in Sources */,
+				D257B6A71F2E40CE004A1DFE /* GlobalConstants.swift in Sources */,
+				D257B6B01F2E4339004A1DFE /* SummarySkillComputerAssembly.swift in Sources */,
+				D290E6501F2E511D003E0366 /* ReuseIdentifierProtocol.swift in Sources */,
+				D257B6911F2E3A0B004A1DFE /* SummarySkillComputerViewController.swift in Sources */,
+				D257B6991F2E3AFF004A1DFE /* AlamofireRouter.swift in Sources */,
+				D290E65B1F2E697E003E0366 /* ComputerGroupModel.swift in Sources */,
+				D257B6A51F2E3CB1004A1DFE /* AlamofireRouterURLRequest.swift in Sources */,
+				D257B69B1F2E3B36004A1DFE /* AlamofireRouterBaseURL.swift in Sources */,
+				D257B6AA1F2E4318004A1DFE /* SummarySkillComputerPresenter.swift in Sources */,
+				D257B68E1F2E395C004A1DFE /* SkillComputerModel.swift in Sources */,
+				D257B6A11F2E3C10004A1DFE /* AlamofireRouterPath.swift in Sources */,
+				D257B6941F2E3A30004A1DFE /* SkillComputerDataManager.swift in Sources */,
+				D290E6591F2E6676003E0366 /* SKillComputerAssembly.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D257B67A1F2E381D004A1DFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D257B67B1F2E381D004A1DFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D257B67F1F2E381D004A1DFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D257B6801F2E381D004A1DFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D257B6831F2E381D004A1DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D257B6841F2E381D004A1DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D257B6861F2E381D004A1DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6A1E12AB33531FC32E038E /* Pods-SkillComputer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZLZEZ346Q;
+				INFOPLIST_FILE = SkillComputer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codemobiles.SkillComputer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D257B6871F2E381D004A1DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D38F8D006775C454FAF9098 /* Pods-SkillComputer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZLZEZ346Q;
+				INFOPLIST_FILE = SkillComputer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codemobiles.SkillComputer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D257B66E1F2E381D004A1DFE /* Build configuration list for PBXProject "SkillComputer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D257B6831F2E381D004A1DFE /* Debug */,
+				D257B6841F2E381D004A1DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D257B6851F2E381D004A1DFE /* Build configuration list for PBXNativeTarget "SkillComputer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D257B6861F2E381D004A1DFE /* Debug */,
+				D257B6871F2E381D004A1DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D257B66B1F2E381D004A1DFE /* Project object */;
+}

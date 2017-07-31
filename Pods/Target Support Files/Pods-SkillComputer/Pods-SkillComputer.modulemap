@@ -1,0 +1,6 @@
+framework module Pods_SkillComputer {
+  umbrella header "Pods-SkillComputer-umbrella.h"
+
+  export *
+  module * { export * }
+}
