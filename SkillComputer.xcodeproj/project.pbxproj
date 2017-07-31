@@ -16,7 +16,6 @@
 		D257B68E1F2E395C004A1DFE /* SkillComputerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B68D1F2E395C004A1DFE /* SkillComputerModel.swift */; };
 		D257B6911F2E3A0B004A1DFE /* SummarySkillComputerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6901F2E3A0B004A1DFE /* SummarySkillComputerViewController.swift */; };
 		D257B6941F2E3A30004A1DFE /* SkillComputerDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6931F2E3A30004A1DFE /* SkillComputerDataManager.swift */; };
-		D257B6991F2E3AFF004A1DFE /* AlamofireRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B6981F2E3AFF004A1DFE /* AlamofireRouter.swift */; };
 		D257B69B1F2E3B36004A1DFE /* AlamofireRouterBaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B69A1F2E3B36004A1DFE /* AlamofireRouterBaseURL.swift */; };
 		D257B69D1F2E3BA0004A1DFE /* AlamofireRouterMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B69C1F2E3BA0004A1DFE /* AlamofireRouterMethod.swift */; };
 		D257B69F1F2E3BE3004A1DFE /* AlamofireRouterParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257B69E1F2E3BE3004A1DFE /* AlamofireRouterParameters.swift */; };
@@ -35,6 +34,7 @@
 		D290E6571F2E666B003E0366 /* SKillComputerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290E6561F2E666B003E0366 /* SKillComputerInteractor.swift */; };
 		D290E6591F2E6676003E0366 /* SKillComputerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290E6581F2E6676003E0366 /* SKillComputerAssembly.swift */; };
 		D290E65B1F2E697E003E0366 /* ComputerGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290E65A1F2E697E003E0366 /* ComputerGroupModel.swift */; };
+		D2B000021F2EF0BC00FC897E /* AlamofireRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B000011F2EF0BC00FC897E /* AlamofireRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +51,6 @@
 		D257B68D1F2E395C004A1DFE /* SkillComputerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillComputerModel.swift; sourceTree = "<group>"; };
 		D257B6901F2E3A0B004A1DFE /* SummarySkillComputerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummarySkillComputerViewController.swift; sourceTree = "<group>"; };
 		D257B6931F2E3A30004A1DFE /* SkillComputerDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillComputerDataManager.swift; sourceTree = "<group>"; };
-		D257B6981F2E3AFF004A1DFE /* AlamofireRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlamofireRouter.swift; path = ../../../../Downloads/AlamofireRouter.swift; sourceTree = "<group>"; };
 		D257B69A1F2E3B36004A1DFE /* AlamofireRouterBaseURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterBaseURL.swift; sourceTree = "<group>"; };
 		D257B69C1F2E3BA0004A1DFE /* AlamofireRouterMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterMethod.swift; sourceTree = "<group>"; };
 		D257B69E1F2E3BE3004A1DFE /* AlamofireRouterParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouterParameters.swift; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		D290E6561F2E666B003E0366 /* SKillComputerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKillComputerInteractor.swift; sourceTree = "<group>"; };
 		D290E6581F2E6676003E0366 /* SKillComputerAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKillComputerAssembly.swift; sourceTree = "<group>"; };
 		D290E65A1F2E697E003E0366 /* ComputerGroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerGroupModel.swift; sourceTree = "<group>"; };
+		D2B000011F2EF0BC00FC897E /* AlamofireRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +207,7 @@
 		D257B6971F2E3AE9004A1DFE /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				D257B6981F2E3AFF004A1DFE /* AlamofireRouter.swift */,
+				D2B000011F2EF0BC00FC897E /* AlamofireRouter.swift */,
 				D257B69A1F2E3B36004A1DFE /* AlamofireRouterBaseURL.swift */,
 				D257B69C1F2E3BA0004A1DFE /* AlamofireRouterMethod.swift */,
 				D257B69E1F2E3BE3004A1DFE /* AlamofireRouterParameters.swift */,
@@ -383,13 +383,13 @@
 				D257B6AC1F2E4322004A1DFE /* SummarySkillComputerInteractor.swift in Sources */,
 				D257B6A31F2E3C9A004A1DFE /* AlamofireRouterRawBody.swift in Sources */,
 				D290E6531F2E52FD003E0366 /* ViewControllerExtension.swift in Sources */,
+				D2B000021F2EF0BC00FC897E /* AlamofireRouter.swift in Sources */,
 				D290E6571F2E666B003E0366 /* SKillComputerInteractor.swift in Sources */,
 				D290E6551F2E6660003E0366 /* SKillComputerPresent.swift in Sources */,
 				D257B6A71F2E40CE004A1DFE /* GlobalConstants.swift in Sources */,
 				D257B6B01F2E4339004A1DFE /* SummarySkillComputerAssembly.swift in Sources */,
 				D290E6501F2E511D003E0366 /* ReuseIdentifierProtocol.swift in Sources */,
 				D257B6911F2E3A0B004A1DFE /* SummarySkillComputerViewController.swift in Sources */,
-				D257B6991F2E3AFF004A1DFE /* AlamofireRouter.swift in Sources */,
 				D290E65B1F2E697E003E0366 /* ComputerGroupModel.swift in Sources */,
 				D257B6A51F2E3CB1004A1DFE /* AlamofireRouterURLRequest.swift in Sources */,
 				D257B69B1F2E3B36004A1DFE /* AlamofireRouterBaseURL.swift in Sources */,
